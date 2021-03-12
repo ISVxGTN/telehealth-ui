@@ -1,4 +1,16 @@
 /* ./src/index.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+
+.theme-color {
+  color: #2da5ad;
+}
+
+.theme-active-color {
+  color: #f27630;
+  border-bottom-color: #f27630;
+}
