@@ -20,7 +20,7 @@ export default function Landingpage() {
         </div>
         <div>
           <div className="py-16 mr-10">
-            <img src={image} />
+            <img src={image} alt="Doc Image" />
           </div>
         </div>
       </div>

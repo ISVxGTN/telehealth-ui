@@ -14,7 +14,7 @@ export default function Navbar({ fixed }) {
               to="/"
               className="text-sm font-semibold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-black"
             >
-              <img src={logo} />
+              <img src={logo} alt="logo" />
             </Link>
             <button
               className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -79,7 +79,7 @@ export default function Navbar({ fixed }) {
                 >
                   <i className="fab fa-pinterest text-2xl  leading-lg text-black opacity-75"></i>
                   <span className="">
-                    <img src={profile} />
+                    <img src={profile} alt="profile" />
                   </span>
                 </a>
               </li>
