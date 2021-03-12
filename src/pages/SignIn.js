@@ -42,12 +42,13 @@ const SignIn = () => {
             Forgot Password?
           </Link>
 
-          <button
-            type="submit"
+          <Link
+            to="/"
+            type="button"
             className="w-full py-2 rounded-full bg-green-600 text-gray-100  focus:outline-none"
           >
-            Button
-          </button>
+            Submit
+          </Link>
         </div>
       </form>
     </div>
