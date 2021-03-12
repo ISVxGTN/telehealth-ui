@@ -39,13 +39,13 @@ const SignIn = () => {
             m
             className="text-xs text-gray-500 float-right mb-4"
           >
-            Forgot Password?
+            Forgot Password
           </Link>
 
           <Link
             to="/"
             type="button"
-            className="w-full py-2 rounded-full bg-green-600 text-gray-100  focus:outline-none"
+            className="w-full py-2 text-center rounded-full bg-green-600 text-gray-100  focus:outline-none"
           >
             Submit
           </Link>
